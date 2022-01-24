@@ -13,7 +13,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.model_selection import train_test_split
 
 # NOTE: Make sure that the outcome column is labeled 'target' in the data file
-tpot_data = pd.read_csv('https://github.com/karthikreddykuna/StrokePrediction/blob/main/prepared_data.csv')
+tpot_data = pd.read_csv('https://raw.githubusercontent.com/karthikreddykuna/StrokePrediction/main/prepared_data.csv')
 features = tpot_data.drop('target', axis=1)
 training_features, testing_features, training_target, testing_target = \
             train_test_split(features, tpot_data['target'], random_state=None)
