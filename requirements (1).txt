@@ -1,0 +1,8 @@
+pip-upgrader
+pandas
+requests
+pickle-mixin
+scikit-learn
+streamlit
+feature-engine
+    
